@@ -18,7 +18,7 @@ Terminazione in caso di errori: funzione perror().
 
 
 
-<! ---
+<details hidden>
 
 -------
 
@@ -568,4 +568,4 @@ Discussione del progetto finale.
 Prova di recupero riservata agli studenti che hanno superato 2 prove in itinere su 4. 
 
 
--->
+</details>
