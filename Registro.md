@@ -17,8 +17,8 @@ Scrittura di file in formato testo, funzioni fopen/fprintf/fclose. Programma `sc
 Terminazione in caso di errori: funzione perror().
 
 
+<div style="display:none">
 
-<details hidden>
 
 -------
 
@@ -568,4 +568,4 @@ Discussione del progetto finale.
 Prova di recupero riservata agli studenti che hanno superato 2 prove in itinere su 4. 
 
 
-</details>
+</div>
