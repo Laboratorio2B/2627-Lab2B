@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
   // spiego cosa voglio leggere e lo leggo con scanf  
   puts("Inserisci il numero di elementi: ");
-  int e; // nella riga seguente manca e=
+  int e;
   e = scanf("%d",&n); // il motivo della & lo vedremo più avanti 
   // controlli sulla lettura
   if(e!=1) {

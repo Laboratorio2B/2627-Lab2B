@@ -3,13 +3,14 @@
 
 **Lezione 1** (15/9/26)
 
-Introduzione al corso: obiettivi e modalità d'esame. Introduzione al linguaggio C. La funzione `main`. Lettura e scrittura di interi dal terminale. Compilazione: linea di comando, errori e warning. Permessi di lettura/scrittura/esecuzione `rwx`. Esecuzione di programmi. Array "statici" (tipo `int a[n]` in `somma.c`). 
+Introduzione al corso: obiettivi e modalità d'esame. Introduzione al linguaggio C. La funzione `main`. Lettura e scrittura di interi dal terminale. Array "statici" (tipo `int a[n]` in `somma.c`). Compilazione da  linea di comando. Permessi di lettura/scrittura/esecuzione `rwx`, comando `chmod`. Esecuzione di programmi. 
 
 -----------------------
 
 **Lezione 2** (18/9/26)
 
 
+Esempio di errori e warning. 
 Concetto di PATH, uso di `.` per indicare la directory corrente. File `.bashrc` e sua modifica. 
 Allocazione dinamica di array in C: funzioni malloc e free, programma `sommad.c`.
 Lettura di input dalla linea di comando con argc/argv. 
@@ -18,7 +19,7 @@ Terminazione in caso di errori: funzione perror().
 
 
 <details>
-<summary></summary>
+<summary>Anno accademico 25/26</summary>
 
 
 -------
