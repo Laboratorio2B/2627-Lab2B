@@ -8,9 +8,11 @@
 
 // da compilare con:
 //  gcc -std=c11 -Wall -O -g -o scrivi_primi  scrivi_primi.c
-// oppure, avendo il makefile visto a lezione
-//  make scrivi_primi
-
+// Esempio esecuzione:
+//  scrivi_primi 100 p100
+// Per visualizzare il contenuto del file:
+//  less p100
+// e poi spazio o freccia in giu per scorrere il contenuto
 
 // Scopo del programma:
 //  converte argv[1] nell'intero N
@@ -57,13 +59,13 @@ int main(int argc, char *argv[])
   int messi = 0;   // numero di elementi attualmente dentro l'array 
   
   // stampa indirizzi delle variabili del main
-  printf("--- Indirizzi di argc, n, a, messi: %p\n%p\n%p\n%p\n",&argc,&n,&a,&messi);
+  // printf("--- Indirizzi di argc, n, a, messi: %p\n%p\n%p\n%p\n",&argc,&n,&a,&messi);
 
   a = malloc(capacita*sizeof(int));
   if(a==NULL) 
     termina("Malloc fallita");
   // stampa indirizzo contenuto in a  
-  printf("--- contenuto di a: %p\n",a); 
+  // printf("--- contenuto di a: %p\n",a); 
 
   
   // riempio array
@@ -77,7 +79,7 @@ int main(int argc, char *argv[])
         a = realloc(a,capacita*sizeof(int));
         if(a==NULL)
           termina("Realloc fallita");
-        printf("--- a reallocato (%d): %p\n",capacita,a);
+        // printf("--- a reallocato (%d): %p\n",capacita,a);
       }
       // inserisco il primo i dentro a[]
       a[messi] = i;

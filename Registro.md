@@ -10,32 +10,38 @@ Introduzione al corso: obiettivi e modalità d'esame. Introduzione al linguaggio
 **Lezione 2** (18/9/26)
 
 
-Esempio di errori e warning. 
-Concetto di PATH, uso di `.` per indicare la directory corrente. File `.bashrc` e sua modifica. 
+Esempio di errori e warning sul programma `somma.c`
 Allocazione dinamica di array in C: funzioni malloc e free, programma `sommad.c`.
+Directory speciali `.` e `..`. Percorsi relativi ed assoluti. 
+Concetto di `PATH`. File `.bashrc` e sua modifica. 
 Lettura di input dalla linea di comando con argc/argv. 
+Allocazione dinamica di array in C: funzioni malloc/free/realloc, programma `scrivi_primi.c`
 Scrittura di file in formato testo, funzioni fopen/fprintf/fclose. Programma `scrivi_primi.c`.
+
+
+-------
+
+**Lezione 3** (22/9/26)
+
+
 Terminazione in caso di errori: funzione perror().
+Introduzione ai puntatori; uso di puntatori negli array.
+Significato e uso di `*` e `&`. Uso di `%p` per la stampa di un puntatore. 
+Analisi dettagliata programma `scrivi_primi.c`.
+
 
 
 <details>
-<summary>Anno accademico 25/26</summary>
+<summary>Anno accademico 2025/26</summary>
 
 
--------
-
-**Lezione 3** (23/9/25)
-
-Allocazione dinamica di array in C: funzioni malloc/free/realloc, programma `scrivi_primi.c`
-Scrittura in un file di testo: fopen(), fprintf(), fclose(). Modalità append.
-Introduzione ai puntatori; uso di puntatori negli array.
-Significato e uso di `*` e `&`. Uso di `%p` per la stampa di un puntatore. 
-Prototipi di funzione; significato istruzioni `#include`
 
 -------
+
 
 **Lezione 4** (26/9/25)
 
+Prototipi di funzione; significato istruzioni `#include`
 Utilizzo di *valgrind* per verificare il corretto utilizzo e deallocazione degli array.
 Esempio passaggio parametri per riferimento attraverso un puntatore: `sommadprod.c`
 Rappresentazione di stringhe in C (inizio): i tipi `char` e `char *`: sorgente `charstr.c`.
