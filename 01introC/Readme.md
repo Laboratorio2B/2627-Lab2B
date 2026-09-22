@@ -18,7 +18,7 @@ e il file `dispari.txt`
 17
 -23
 ```
-Il programm deve poi visualizzare sul terminale:
+Il programma deve poi visualizzare sul terminale:
 ```
 Somma interi pari: 116
 Somma interi dispari: -6

@@ -16,18 +16,29 @@ Directory speciali `.` e `..`. Percorsi relativi ed assoluti.
 Concetto di `PATH`. File `.bashrc` e sua modifica. 
 Lettura di input dalla linea di comando con argc/argv. 
 Allocazione dinamica di array in C: funzioni malloc/free/realloc, programma `scrivi_primi.c`
-Scrittura di file in formato testo, funzioni fopen/fprintf/fclose. Programma `scrivi_primi.c`.
 
 
 -------
 
 **Lezione 3** (22/9/26)
 
-
+Scrittura di file in formato testo, funzioni fopen/fprintf/fclose. Programma `scrivi_primi.c`.
 Terminazione in caso di errori: funzione perror().
 Introduzione ai puntatori; uso di puntatori negli array.
-Significato e uso di `*` e `&`. Uso di `%p` per la stampa di un puntatore. 
+Uso di `%p` per la stampa di un puntatore. 
 Analisi dettagliata programma `scrivi_primi.c`.
+
+
+
+-------
+
+**Lezione 4** (25/9/26)
+
+Prototipi di funzione; significato istruzioni `#include`
+Utilizzo di *valgrind* per verificare il corretto utilizzo e deallocazione degli array.
+Significato e uso di `*` e `&`. 
+Esempio passaggio parametri per riferimento attraverso un puntatore: `sommadprod.c`
+Rappresentazione di stringhe in C (inizio): i tipi `char` e `char *`: sorgente `charstr.c`.
 
 
 
@@ -36,15 +47,6 @@ Analisi dettagliata programma `scrivi_primi.c`.
 
 
 
--------
-
-
-**Lezione 4** (26/9/25)
-
-Prototipi di funzione; significato istruzioni `#include`
-Utilizzo di *valgrind* per verificare il corretto utilizzo e deallocazione degli array.
-Esempio passaggio parametri per riferimento attraverso un puntatore: `sommadprod.c`
-Rappresentazione di stringhe in C (inizio): i tipi `char` e `char *`: sorgente `charstr.c`.
 
 
 ------------
