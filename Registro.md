@@ -34,30 +34,27 @@ Analisi dettagliata programma `scrivi_primi.c`.
 
 **Lezione 4** (25/9/26)
 
-Prototipi di funzione; significato istruzioni `#include`
-Utilizzo di *valgrind* per verificare il corretto utilizzo e deallocazione degli array.
 Significato e uso di `*` e `&`. 
 Esempio passaggio parametri per riferimento attraverso un puntatore: `sommadprod.c`
-Rappresentazione di stringhe in C (inizio): i tipi `char` e `char *`: sorgente `charstr.c`.
-
-
-
-<details>
-<summary>Anno accademico 2025/26</summary>
-
-
+Utilizzo di *valgrind* per verificare il corretto utilizzo e deallocazione degli array.
+Comandi `less` e `od` per visualizzare il contenuto di un file.
 
 
 
 ------------
 
-**Lezione 5** (30/9/25)
+**Lezione 5** (2/10/26)
 
-Rappresentazione di stringhe in C (fine).
+Prototipi di funzione; significato istruzioni `#include`
+Rappresentazione di stringhe in C: i tipi `char` e `char *`: sorgente `charstr.c`.
 Stampa di stringhe con `printf`, calcolo lunghezza con `strlen`. 
 Struttura dei parametri argc/argv di main().
 Copia del puntatore vs copia degli elementi di un array: la funzione strdup()
-Comandi `less` e `od` per visualizzare il contenuto di un file.
+
+
+
+<details>
+<summary>Anno accademico 2025/26</summary>
 
 
 ------------
