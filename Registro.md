@@ -45,11 +45,27 @@ Comandi `less` e `od` per visualizzare il contenuto di un file.
 
 **Lezione 5** (2/10/26)
 
-Prototipi di funzione; significato istruzioni `#include`
-Rappresentazione di stringhe in C: i tipi `char` e `char *`: sorgente `charstr.c`.
-Stampa di stringhe con `printf`, calcolo lunghezza con `strlen`. 
+Prototipi di funzione; significato istruzioni `#include`.
+Rappresentazione di stringhe in C: i tipi `char` e `char *`.
 Struttura dei parametri argc/argv di main().
-Copia del puntatore vs copia degli elementi di un array: la funzione strdup()
+Stampa di stringhe con `printf`, calcolo lunghezza con `strlen`, duplicazione di stringhe con `strdup`: sorgente `charstr.c`.
+
+
+
+------------
+
+**Lezione 6** (6/10/26)
+
+
+Ripasso sulla rappresentazione di stringhe. 
+Copia del puntatore vs copia degli elementi di un array. 
+Confronto fra `strcpy` e `strdup`
+Passaggio di array dalle/alle funzioni.
+
+Lettura da un file di testo: comando fscanf().  
+`stdout` e `stderr` e loro ridirezione.
+Uso di `assert`.
+Introduzione al *makefile*; compilazione con il comando *make*.
 
 
 
@@ -61,12 +77,7 @@ Copia del puntatore vs copia degli elementi di un array: la funzione strdup()
 
 **Lezione 6** (7/10/25)
 
-Passaggio di array dalle/alle funzioni.
-Lettura da un file di testo: comando fscanf().  
-Terminazione in caso di errori: funzione perror(). Significato del tipo `const char *`
-`stdout` e `stderr` e loro ridirezione.
-Uso di `assert`.
-Introduzione al *makefile*; compilazione con il comando *make*.
+Significato del tipo `const char *`
 Equivalenza fra `*a` e `a[0]`.
 Equivalenza fra `a` e `&a[0]`.
 Aritmetica dei puntatori: definizione di `a+i` come `&a[i]`
