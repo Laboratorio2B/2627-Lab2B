@@ -60,12 +60,22 @@ Stampa di stringhe con `printf`, calcolo lunghezza con `strlen`, duplicazione di
 Ripasso sulla rappresentazione di stringhe. 
 Copia del puntatore vs copia degli elementi di un array. 
 Confronto fra `strcpy` e `strdup`
-Passaggio di array dalle/alle funzioni.
+Effetto istruzione `#define _GNU_SOURCE`
+Passaggio di stringhe/array alle funzioni.
+Significato del tipo `const char *`
+Introduzione al *makefile*; compilazione con il comando *make*.
 
-Lettura da un file di testo: comando fscanf().  
+
+----------
+
+**Lezione 7** (9/10/26)
+
+Lettura da un file di testo: comando fscanf().
+Funzione che restituisce un array di interi: sorgente `leggi_interi.c`.
 `stdout` e `stderr` e loro ridirezione.
 Uso di `assert`.
-Introduzione al *makefile*; compilazione con il comando *make*.
+
+
 
 
 
@@ -73,20 +83,15 @@ Introduzione al *makefile*; compilazione con il comando *make*.
 <summary>Anno accademico 2025/26</summary>
 
 
+
+
 ------------
 
-**Lezione 6** (7/10/25)
+**Lezione 7** (10/10/26)
 
-Significato del tipo `const char *`
 Equivalenza fra `*a` e `a[0]`.
 Equivalenza fra `a` e `&a[0]`.
 Aritmetica dei puntatori: definizione di `a+i` come `&a[i]`
-
-
-------------
-
-**Lezione 7** (14/10/25)
-
 Esempio di uso della notazione `&a[i]` nel *mergesort*
 Esercitazione in aula su array e stringhe: [testo esercizio](https://elearning.di.unipi.it/mod/page/view.php?id=24746)
 

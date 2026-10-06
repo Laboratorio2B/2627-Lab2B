@@ -10,16 +10,19 @@
 // array di caratteri che termina al primo byte uguale a 0
 
 
-// stampa un messaggio d'errore e termina il programma
-void termina(char *messaggio)
+
+// stampa un messaggio con printf
+void stampa_messaggio(const char *m)
 {
-  puts(messaggio);
-  exit(1);
+  // m[0]='Y'; dato che c'è la keyword const questa 
+  // istruzione causa un errore in compliazione
+  printf("Messaggio: %s\n", m); 
 }
 
 
 int main(int argc, char *argv[])
 {
+  
   char a,b;
 
   // ---------- esempio di doppio uso dei char -----
@@ -29,7 +32,7 @@ int main(int argc, char *argv[])
   b = 'x';
   // stampo ogni char interpretandolo come codice ascii (modificatore %c) 
   // e come intero (modificatore %d) 
-  printf("variabile a: carattere=%c intero=%d\n"a,a);
+  printf("variabile a: carattere=%c intero=%d\n",a,a);
   printf("variabile b: carattere=%c intero=%d\n",b,b);
   // ----------------------------------------------
   
@@ -37,24 +40,30 @@ int main(int argc, char *argv[])
   // creo una copia della stringa "the answer is 42"
   char *z = strdup("the answer is 42");
   printf("stringa originale: %s, lunghezza %zd\n",z,strlen(z));
+  // creo una copia di z
+  char *y = strdup(z);
+  z[5] = '\0';   //  equivalente a scrivere z[5] = 0;  
   // sia per la printf() che per la strlen()
   // la stringa termina quando si incontra il byte 0 
-  z[5] = '\0';   //  equivalente a scrivere z[5] = 0;
   printf("scritto byte 0 in posizione 5: %s, lunghezza %zd\n",z,strlen(z));
   // -----------------------------------------------
 
-  // ----- non ancora fatto !!!!! ------
+
   // dichiaro il puntatore w e ci metto il valore di z;
   char *w = z;
   printf("w:%s, z:%s\n",w,z);
   w[1] = 'X';
-  // dato che w e z puntano alla stessa zona di memoria
-  // le modifiche su w valgono anche su z e viceversa
-  printf("w:%s, z:%s\n",w,z);
+  printf("w:%s, y:%s, z:%s\n",w,y,z);
   // -----------------------------
 
-  // la strdup esegue una malloc() quindi devo deallocare con free()
-  free(z);
+  // chiamiamo la funzione stampa messaggio per mostrare
+  // il funzionamento 
+  stampa_messaggio(y);
+
+  // la strdup esegue una malloc() quindi devo deallocare 
+  // con free(): la regola è che a ogni strdup() deve 
+  // corrispondere una free()
+  free(z); free(y);
   // free(z) dealloca anche la memoria a cui punta w
   // quindi fare anche free(w) sarebbe un errore
   return 0;
