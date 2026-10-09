@@ -76,6 +76,15 @@ Uso di `assert`.
 Esercitazione in aula sulle sulle stringhe. 
 
 
+----------
+
+**Lezione 8** (13/10/26)
+
+`stdout` e `stderr` e loro ridirezione.
+Equivalenza fra `*a` e `a[0]`.
+Equivalenza fra `a` e `&a[0]`.
+Aritmetica dei puntatori: definizione di `a+i` come `&a[i]`
+Esempio di uso della notazione `&a[i]` nel *mergesort*
 
 
 <details>
@@ -83,16 +92,11 @@ Esercitazione in aula sulle sulle stringhe.
 
 
 
-
 ------------
 
 **Lezione 7** (10/10/26)
 
-`stdout` e `stderr` e loro ridirezione.
-Equivalenza fra `*a` e `a[0]`.
-Equivalenza fra `a` e `&a[0]`.
-Aritmetica dei puntatori: definizione di `a+i` come `&a[i]`
-Esempio di uso della notazione `&a[i]` nel *mergesort*
+
 Esercitazione in aula su array e stringhe: [testo esercizio](https://elearning.di.unipi.it/mod/page/view.php?id=24746)
 
 
