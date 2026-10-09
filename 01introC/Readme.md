@@ -101,5 +101,23 @@ HEAP SUMMARY:
 
 
 
+### Boomer (9/10/26)
 
+Scrivere una funzione `void maiuscole(char *s)` che riceve in input una stringa e la modifica convertendo ogni carattere in maiuscolo. 
+Per convertire un singolo carattere in maiuscolo è necessario invocare la funzione `toupper()`, consultate la pagina `man` per l'uso. 
+
+Scrivere un programma `boomer` che invoca la funzione `maiuscole` sui parametri `argv[1]`, `argv[2]`, ... e stampa le stringhe così ottenute.
+
+
+### Confronta stringhe (9/10/26)
+
+Scrivere una funzione `int confrontas(const char *s, const char *q)` che prende in input due stringhe e resituisce:
+
+* -1 se la prima è lessicograficamente minore della seconda (ad esempio `s`=camino, `q`=cane)
+*  1 se la prima è è lessicograficamente maggiore della seconda (ad esempio `s`=gatto, `q`=cane)
+* 0 se le due stringhe sono uguali
+
+Si ricordi che per convenzione se una stringa è un prefisso proprio dell'altra allora quella lessicograficamente minore è quell più corta (quindi `porta` è minore di `portale`).
+
+Si scriva poi un un programma `minimo` che calcola e la stmpa la stringa più piccola tra `argv[1]`, `argv[2]`, ...
 

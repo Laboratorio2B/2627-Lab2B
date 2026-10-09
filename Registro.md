@@ -71,10 +71,9 @@ Introduzione al *makefile*; compilazione con il comando *make*.
 **Lezione 7** (9/10/26)
 
 Lettura da un file di testo: comando fscanf().
-Funzione che restituisce un array di interi: sorgente `leggi_interi.c`.
-`stdout` e `stderr` e loro ridirezione.
+Esempio funzione che restituisce un array di interi. Sorgente `leggi_interi.c`.
 Uso di `assert`.
-
+Esercitazione in aula sulle sulle stringhe. 
 
 
 
@@ -89,6 +88,7 @@ Uso di `assert`.
 
 **Lezione 7** (10/10/26)
 
+`stdout` e `stderr` e loro ridirezione.
 Equivalenza fra `*a` e `a[0]`.
 Equivalenza fra `a` e `&a[0]`.
 Aritmetica dei puntatori: definizione di `a+i` come `&a[i]`
