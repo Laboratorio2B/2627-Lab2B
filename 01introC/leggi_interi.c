@@ -90,6 +90,8 @@ int main(int argc, char *argv[])
   int n; // numero di elementi nell'array
   int *a = leggi_file(f,&n);
 
+  // esperimenti con la notazione *a e a[0]
+
   // stampo gli elementi dell'array
   stampa_array(a,n);
 

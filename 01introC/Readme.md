@@ -72,7 +72,7 @@ elos
 orruzza
 321
 ```
-Si noti che per stampare i caratteri in ordine inverso potete 1. creare la stringa ribaltata e poi stamparla con `printf` con modificatore `%s`, oppure  2.  stampare i caratteri da destra a sinistra uno alla volta con il modificatore `%c`. 
+Si noti che per stampare i caratteri in ordine inverso potete: 1. creare la stringa ribaltata e poi stamparla con `printf` con modificatore `%s`, oppure  2.  stampare i caratteri da destra a sinistra uno alla volta con il modificatore `%c`. Notate che nell'esempio precedente i primi due caratteri di `sole`, quindi `s` e `o`, sono `argv[1][0]` e `argv[1][1]`
 
 
 
@@ -111,13 +111,13 @@ Scrivere un programma `boomer` che invoca la funzione `maiuscole` sui parametri 
 
 ### Confronta stringhe (9/10/26)
 
-Scrivere una funzione `int confrontas(const char *s, const char *q)` che prende in input due stringhe e resituisce:
+Scrivere una funzione `int confrontas(const char *s, const char *q)` che prende in input due stringhe e restituisce:
 
 * -1 se la prima è lessicograficamente minore della seconda (ad esempio `s`=camino, `q`=cane)
-*  1 se la prima è è lessicograficamente maggiore della seconda (ad esempio `s`=gatto, `q`=cane)
+*  1 se la prima è lessicograficamente maggiore della seconda (ad esempio `s`=gatto, `q`=cane)
 * 0 se le due stringhe sono uguali
 
-Si ricordi che per convenzione se una stringa è un prefisso proprio dell'altra allora quella lessicograficamente minore è quell più corta (quindi `porta` è minore di `portale`).
+Si ricordi che per convenzione se una stringa è un prefisso proprio dell'altra allora quella lessicograficamente minore è quella più corta (quindi `porta` è minore di `portale`).
 
-Si scriva poi un un programma `minimo` che calcola e la stmpa la stringa più piccola tra `argv[1]`, `argv[2]`, ...
+Si scriva poi un un programma `minimo` che calcola e la stampa la stringa più piccola tra `argv[1]`, `argv[2]`, ...
 

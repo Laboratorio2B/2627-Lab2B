@@ -73,7 +73,7 @@ Introduzione al *makefile*; compilazione con il comando *make*.
 Lettura da un file di testo: comando fscanf().
 Esempio funzione che restituisce un array di interi. Sorgente `leggi_interi.c`.
 Uso di `assert`.
-Esercitazione in aula sulle sulle stringhe. 
+Esercitazione in aula sulla manipolazione di stringhe.
 
 
 ----------
@@ -85,6 +85,10 @@ Equivalenza fra `*a` e `a[0]`.
 Equivalenza fra `a` e `&a[0]`.
 Aritmetica dei puntatori: definizione di `a+i` come `&a[i]`
 Esempio di uso della notazione `&a[i]` nel *mergesort*
+Lettura di stringhe con `scanf`: evitare il buffer overflow: modificatori `%Ns` (con N massimo numero di caratteri) e `%ms`
+Costruzione/concatenazione di stringhe mediante `asprintf` 
+
+
 
 
 <details>
@@ -94,19 +98,16 @@ Esempio di uso della notazione `&a[i]` nel *mergesort*
 
 ------------
 
-**Lezione 7** (10/10/26)
+**Lezione 9** (20/10/26)
 
 
-Esercitazione in aula su array e stringhe: [testo esercizio](https://elearning.di.unipi.it/mod/page/view.php?id=24746)
 
 
 ----
 
-**Lezione 8** (17/10/25)
+**Lezione 10** (20/10/26)
 
-
-Lettura di stringhe con `scanf`: evitare il buffer overflow: modificatori `%Ns` (con N massimo numero di caratteri) e `%ms`
-Costruzione/concatenazione di stringhe mediante `asprintf` 
+Esercitazione in aula su array e stringhe: [testo esercizio](https://elearning.di.unipi.it/mod/page/view.php?id=24746)
 
 
 
