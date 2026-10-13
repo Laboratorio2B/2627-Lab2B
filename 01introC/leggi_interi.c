@@ -62,13 +62,14 @@ int *leggi_file(FILE *f, int *num_elementi)
 void stampa_array(int a[], int n)
 {
   // ----------------------- 
-  assert(a!=NULL);
-  assert(n>=0);
+  assert(a!=NULL); // equivalente a if(a==NULL) termina("Errore assezione");
+  assert(n>=0);    // equivalente a if(n<0) termina(...)
+
   // stampo il contenuto dell'array
   for(int i=0;i<n;i++)
     printf("%8d",a[i]); // stampo gli elementi in un campo di 8 caratteri
   fprintf(stdout,"\nIn totale l'array contiene %d interi\n",n);// equivalente a printf
-  fprintf(stdout,"Ho finito!\n");
+  fprintf(stderr,"Ho finito!\n");
   return;
 }
 
@@ -90,11 +91,8 @@ int main(int argc, char *argv[])
   int n; // numero di elementi nell'array
   int *a = leggi_file(f,&n);
 
-  // esperimenti con la notazione *a e a[0]
-
   // stampo gli elementi dell'array
   stampa_array(a,n);
-
   free(a);
 
   // chiudi il file e termina 

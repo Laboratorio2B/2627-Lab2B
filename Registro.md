@@ -81,25 +81,22 @@ Esercitazione in aula sulla manipolazione di stringhe.
 **Lezione 8** (13/10/26)
 
 `stdout` e `stderr` e loro ridirezione.
-Equivalenza fra `*a` e `a[0]`.
-Equivalenza fra `a` e `&a[0]`.
+Equivalenza fra `*a` e `a[0]`; equivalenza fra `a` e `&a[0]`.
 Aritmetica dei puntatori: definizione di `a+i` come `&a[i]`
-Esempio di uso della notazione `&a[i]` nel *mergesort*
+Esempio di uso della notazione `&a[i]` in *mergesort.c*
 Lettura di stringhe con `scanf`: evitare il buffer overflow: modificatori `%Ns` (con N massimo numero di caratteri) e `%ms`
-Costruzione/concatenazione di stringhe mediante `asprintf` 
-
-
-
-
-<details>
-<summary>Anno accademico 2025/26</summary>
-
-
 
 ------------
 
 **Lezione 9** (20/10/26)
 
+Programma `scanf.c`. 
+Costruzione/concatenazione di stringhe mediante `asprintf` 
+
+
+
+<details>
+<summary>Anno accademico 2025/26</summary>
 
 
 
