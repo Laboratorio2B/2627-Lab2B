@@ -105,11 +105,7 @@ Esercitazione in aula su array e stringhe,
 
 Definizione di tipi composti con `struct`; definizione di nuovi tipi con `typedef` e uso combinato con `struct`
 Operazioni sui tipi composti, notazioni `.` e  `->`; passaggio per valore e per riferimento di struct. 
-Ordinamento di un array di struct mediante mergesort
-Array di puntatori a struct vs array di struct. Esempio: array di capitali.
-
-
-
+Ordinamento di un array di struct mediante mergesort. Sorgente `array_coppie.c`.
 
 
 
@@ -121,10 +117,10 @@ Array di puntatori a struct vs array di struct. Esempio: array di capitali.
 ----
 
 
-**Lezione 9** (21/10/25)
+**Lezione 11** (23/10/26)
 
+Array di puntatori a struct vs array di struct. Esempio: array di capitali.
 Ordinamento array di puntatori a struct mediante mergesort (`array_capitali.c`)
-Terminazione in caso di errori: funzione perror() e variabile globale `errno`
 Confronto lessicografico di stringhe: funzione `strcmp`.
 Introduzione all'uso delle funzioni come parametri di altre funzioni.
 Funzioni `fseek` e `ftell`. Uso del tipo `long`.

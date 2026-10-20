@@ -35,7 +35,6 @@ struct terna {
 // esempio:
 //    struct terna x,y,z;    
 
-
 // E' molto frequente l'uso combinato di struct 
 // (definisce nuovi tipi) e typedef (definisce un sinonimo)
 // Esempio: definisco la struct duetto
@@ -78,7 +77,7 @@ void coppia_stampa(coppia a, FILE *f) {
 // una copia della struct che potrebbe avere molti campi ed  
 // essere molto grande (in questo caso no: sono 2 interi = 8 byte)
 void pcoppia_stampa(const coppia *a, FILE *f) {
-  fprintf(f,"(%d,%d)\n",(*a).primo,(*a).secondo);
+  fprintf(f,"[%d,%d]\n",(*a).primo,(*a).secondo);
 }
 
 
@@ -158,7 +157,7 @@ void merge(coppia a[], int na, coppia c[], int nc, coppia b[])
   assert(a!=NULL);
   assert(c!=NULL);
   assert(b!=NULL);
-  assert(na>0);
+  assert(na>0 );
   assert(nc>0);
   
   int i=0; // indice per a[]
