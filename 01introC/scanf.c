@@ -38,9 +38,16 @@ int main(int argc, char *argv[])
   // e di eseguire la free() quando la stringa non è più necessaria
   
   printf("a=%d,s=%s,z=%s\n",a,s,z);  
-
   // libero memoria allocata da scanf
   free(z);
+
+  // esempio asprintf x conversione intero
+  char *w;
+  e = asprintf(&w,"%d",2*a);
+  if(e<0) termina("Errore asprintf");
+  // ora il doppio di a convertito in stringa è in w
+  printf("Il doppio dell'intero è: %s\n",w);
+  free(w);
   
   return 0;
 }
