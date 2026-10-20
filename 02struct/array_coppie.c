@@ -17,7 +17,7 @@ void termina(const char *messaggio);
 
 
 // keyword typedef: per definire sinonimi di tipi esistenti
-// ad esempio posso metetre le istruzioni (fuori da ogni funzione)
+// ad esempio posso mettere le istruzioni:
 typedef int intero;
 typedef int *puntatore_a_int;
 // e nel resto del programma posso scrivere "intero" invece di "int"
@@ -91,8 +91,8 @@ void incrementa(coppia *a) {
 }
 
 
-// esempio di costruzione di un array di coppie di uso delle funzioni
-// viste sopra e della funzione mergesort per ordinare le coppie
+// esempio di costruzione di un array di coppie, di uso delle funzioni
+// viste, sopra e della funzione mergesort per ordinare le coppie
 // per somma dei campi crescente
 int main(int argc, char *argv[])
 {
@@ -212,7 +212,7 @@ void mergesort(coppia *a, int n)
   // ordino a[0...n1-1]
   mergesort(a,n1);
   // ordino a[n1...n-1]
-  mergesort(&a[n1],n2); // &a[n1] potevo scriverlo a+n1
+  mergesort(&a[n1],n2); 
   
   // ora ho le due metà ordinate devo fare il merge
   coppia *b = malloc(n*sizeof(*b));
@@ -222,5 +222,5 @@ void mergesort(coppia *a, int n)
   for(int i=0;i<n;i++)
     a[i] = b[i];
   
-  free(b); // dealloco array temporaneao b[]
+  free(b); // dealloco array temporaneo b[]
 }

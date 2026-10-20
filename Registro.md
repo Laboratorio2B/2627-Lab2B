@@ -92,20 +92,7 @@ Lettura di stringhe con `scanf`: evitare il buffer overflow: modificatori `%Ns` 
 
 Programma `scanf.c`. 
 Costruzione/concatenazione di stringhe mediante `asprintf` 
-
-
-
-<details>
-<summary>Anno accademico 2025/26</summary>
-
-
-
-----
-
-**Lezione 10** (20/10/26)
-
-Esercitazione in aula su array e stringhe: [testo esercizio](https://elearning.di.unipi.it/mod/page/view.php?id=24746)
-
+Esercitazione in aula su array e stringhe,
 
 
 ---
@@ -114,12 +101,22 @@ Esercitazione in aula su array e stringhe: [testo esercizio](https://elearning.d
 
 
 
-**Lezione 8** (17/10/25)
+**Lezione 10** (20/10/26)
 
 Definizione di tipi composti con `struct`; definizione di nuovi tipi con `typedef` e uso combinato con `struct`
 Operazioni sui tipi composti, notazioni `.` e  `->`; passaggio per valore e per riferimento di struct. 
 Ordinamento di un array di struct mediante mergesort
 Array di puntatori a struct vs array di struct. Esempio: array di capitali.
+
+
+
+
+
+
+<details>
+<summary>Anno accademico 2025/26</summary>
+
+
 
 ----
 
