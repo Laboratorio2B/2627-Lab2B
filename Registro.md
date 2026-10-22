@@ -108,6 +108,19 @@ Operazioni sui tipi composti, notazioni `.` e  `->`; passaggio per valore e per 
 Ordinamento di un array di struct mediante mergesort. Sorgente `array_coppie.c`.
 
 
+---
+
+
+**Lezione 11** (23/10/26)
+
+Array di puntatori a struct vs array di struct. Esempio: array di capitali.
+Ordinamento array di puntatori a struct mediante mergesort (`array_capitali.c`)
+Confronto lessicografico di stringhe: funzione `strcmp`.
+Funzioni `fseek` e `ftell`. Uso del tipo `long`.
+Esercizio: ordinamento di file per dimensione e nome (`array_file.c`). 
+
+
+
 
 <details>
 <summary>Anno accademico 2025/26</summary>
@@ -117,20 +130,13 @@ Ordinamento di un array di struct mediante mergesort. Sorgente `array_coppie.c`.
 ----
 
 
-**Lezione 11** (23/10/26)
-
-Array di puntatori a struct vs array di struct. Esempio: array di capitali.
-Ordinamento array di puntatori a struct mediante mergesort (`array_capitali.c`)
-Confronto lessicografico di stringhe: funzione `strcmp`.
-Introduzione all'uso delle funzioni come parametri di altre funzioni.
-Funzioni `fseek` e `ftell`. Uso del tipo `long`.
-Esercizio: ordinamento di file per dimensione e nome (`array_file.c`). 
 
 
 ---
 
 **Lezione 10** (24/10/25)
 
+Introduzione all'uso delle funzioni come parametri di altre funzioni.
 Puntatori generici (`void *`). La funzione di ordinamento di libreria `qsort`: tipo della funzione di confronto, casting.
 
 
