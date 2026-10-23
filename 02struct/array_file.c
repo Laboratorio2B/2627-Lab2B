@@ -101,7 +101,7 @@ int main(int argc, char *argv[])
 
   // dealloca i singoli file e l'array
   for(int i=0;i<n;i++)
-    miofile_distruggi(arr [i]);
+    miofile_distruggi(arr[i]);
   free(arr);
   
   return 0;
