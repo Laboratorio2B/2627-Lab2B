@@ -120,6 +120,28 @@ Funzioni `fseek` e `ftell`. Uso del tipo `long`.
 Esercizio: ordinamento di file per dimensione e nome (`array_file.c`). 
 
 
+---
+
+**Lezione 12** (27/10/26)
+
+Introduzione all'uso delle funzioni come parametri di altre funzioni.
+Puntatori generici (`void *`). La funzione di ordinamento di libreria `qsort`: tipo della funzione di confronto, casting.
+
+
+----
+
+**Lezione 13** (30/10/26)
+
+Introduzione alle *linked list*: creazione, stampa, distruzione di liste. Inserimento in testa e in coda. 
+Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato. 
+
+
+---
+
+**Lezione 14** (3/11/26)
+
+Prova in itinere sui contenuti delle lezioni 1-11. 
+
 
 
 <details>
@@ -127,32 +149,7 @@ Esercizio: ordinamento di file per dimensione e nome (`array_file.c`).
 
 
 
-----
 
-
-
-
----
-
-**Lezione 10** (24/10/25)
-
-Introduzione all'uso delle funzioni come parametri di altre funzioni.
-Puntatori generici (`void *`). La funzione di ordinamento di libreria `qsort`: tipo della funzione di confronto, casting.
-
-
----
-
-**Lezione 11** (28/10/25)
-
-Prova in itinere sui contenuti delle lezioni 1-9. 
-
-
-----
-
-**Lezione 12** (31/10/25)
-
-Introduzione alle *linked list*: creazione, stampa, distruzione di liste. Inserimento in testa e in coda. 
-Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato. 
 
 
 
