@@ -124,14 +124,17 @@ Esercizio: ordinamento di file per dimensione e nome (`array_file.c`).
 
 **Lezione 12** (27/10/26)
 
-Introduzione all'uso delle funzioni come parametri di altre funzioni.
-Puntatori generici (`void *`). La funzione di ordinamento di libreria `qsort`: tipo della funzione di confronto, casting.
+Introduzione all'uso delle funzioni come parametri di altre funzioni (`funzfunz.c`).
+Esempio di mergesort con differenti funzioni di contronto (`array_capitali_funz.c`)
+Puntatori generici (`void *`). La funzione di ordinamento di libreria `qsort`: funzionamento interno, uso di `void *` e tipo della funzione di confronto, casting.
 
 
 ----
 
 **Lezione 13** (30/10/26)
 
+
+Esempi utilizzo qsort: `qsortint.c`, `qsortstr.c`. 
 Introduzione alle *linked list*: creazione, stampa, distruzione di liste. Inserimento in testa e in coda. 
 Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato. 
 
