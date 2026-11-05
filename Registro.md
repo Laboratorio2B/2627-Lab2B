@@ -134,16 +134,27 @@ Puntatori generici (`void *`). La funzione di ordinamento di libreria `qsort`: f
 **Lezione 13** (30/10/26)
 
 
-Esempi utilizzo qsort: `qsortint.c`, `qsortstr.c`. 
-Introduzione alle *linked list*: creazione, stampa, distruzione di liste. Inserimento in testa e in coda. 
-Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato. 
-
+Non tenuta per indisponibilità dell'aula
 
 ---
 
 **Lezione 14** (3/11/26)
 
 Prova in itinere sui contenuti delle lezioni 1-11. 
+
+
+
+----
+
+**Lezione 15** (6/11/26)
+
+
+Esempi utilizzo qsort: `qsortint.c`, `qsortstr.c`. 
+Introduzione alle *linked list*: creazione, stampa, distruzione di liste. Inserimento in testa e in coda. 
+Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato. 
+
+
+---
 
 
 

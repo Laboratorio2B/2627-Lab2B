@@ -27,3 +27,9 @@ Questo esercizio è stato svolto in aula nel file `array_file.c` esclusa la part
 potete svolgere modificando opportunamente il mergesort visto in `array_capitali.c`
 
 
+### qsort (6/11/25)
+
+Ripetere gli esercizi **Coppie** e **Ordinamento di file** eseguendo l'ordinamento utilizzando la funzione di libreria `qsort(3)` invece di `mergesort`.
+
+
+ 
