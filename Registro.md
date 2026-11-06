@@ -151,19 +151,23 @@ Prova in itinere sui contenuti delle lezioni 1-11.
 
 Esempi utilizzo qsort: `qsortint.c`, `qsortstr.c`. 
 Introduzione alle *linked list*: creazione, stampa, distruzione di liste. Inserimento in testa e in coda. 
-Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato. 
+Procedura ricorsiva per la cancellazione di un elemento. 
 
 
 ---
 
 
+**Lezione 16** (10/11/26)
+
+Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato.
+Alberi binari di ricerca: procedure ricorsive per costruzione, visita e deallocazione.
+
+
+
+
 
 <details>
 <summary>Anno accademico 2025/26</summary>
-
-
-
-
 
 
 

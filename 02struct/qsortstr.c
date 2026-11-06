@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
   // eseguo il sorting delle stringhe con qsort()
   // come spiegato a lezione per non avere warning in compilazione
   // per l'ultimo argomento ci vuole il casting  
-  qsort(a,n,sizeof(*a), (__compar_fn_t) &confronta_str); 
+  qsort(a,n,sizeof *a, (__compar_fn_t) &confronta_str); 
 
   // stampo array
   puts("--- qsort eseguito ---");
