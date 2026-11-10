@@ -107,6 +107,9 @@ capitale *crea_lista_testa(FILE *f)
 
 // crea una lista con gli oggetti capitale letti da 
 // *f inserendoli ogni volta in coda alla lista
+// durante la costruzione mantiene un puntatore in 
+// testa e in coda alla lista restituisce solo il puntatore 
+// alla testa della lista
 capitale *crea_lista_coda(FILE *f) {
   capitale *testa = NULL; // serve per il return
   capitale *coda = NULL;  // serve per l'inserimento in coda
@@ -128,7 +131,8 @@ capitale *crea_lista_coda(FILE *f) {
 }
 
 
-// cancella da una lista l'elemento con nome "s" versione ricorsiva
+// cancella da una lista il primo elemento con nome 
+// uguale alla stringa s versione ricorsiva
 capitale *cancella_nome(capitale *testa, char *s)
 {
   assert(s!=NULL);
@@ -145,22 +149,30 @@ capitale *cancella_nome(capitale *testa, char *s)
   return testa;
 }
 
-// cancella da una lista l'elemento con nome "s" 
-// bozza versione iterativa; non funzionante!
-// da completare per casa
+// come sopra bozza versione iterativa; non 
 capitale *cancella_nome_iter(capitale *lis, char *s)
 {
+  capitale *testa = lis; // salvo puntatore primo elementi
+  capitale *prec = NULL; // predecessore di lis
   while(lis!=NULL) {
     if(strcmp(lis->nome,s)==0) {
       // qui è necessario eliminare dalla lista
-      // l'oggetto a cui punta lis 
+      // l'oggetto a cui punta lis
+      if(prec!=NULL) 
+        prec->next = lis->next;
+      else
+        testa = lis->next;
+      capitale_distruggi(lis);
+      break;
     }
+    prec = lis; 
     lis = lis->next;
+    assert(prec->next==lis);
   }
   // ora è necessario restituire il puntatore al 
   // primo elemento della nuova lista: è cambiato
   // se l'elemento che era testa è stato cancellato
-  return NULL; // NULL è sicuramente sbagliato... 
+  return testa; 
 }
 
 
@@ -247,9 +259,10 @@ int main(int argc, char *argv[])
   lista_capitale_stampa(testa,stdout);  
   puts("--- fine lista ---");
 
-  // elimina Londra dalla lista
-  testa = cancella_nome(testa,"Londra");
-  puts("--- inizio lista (con Londra cancellata) ---");
+  // elimina Londra e Varsavia dalla lista
+  testa = cancella_nome_iter(testa,"Londra");
+  testa = cancella_nome_iter(testa,"Varsavia");
+  puts("--- inizio lista (con Londra e Varsavia cancellate) ---");
   lista_capitale_stampa(testa,stdout);  
   puts("--- fine lista ---");
   lista_capitale_distruggi(testa);

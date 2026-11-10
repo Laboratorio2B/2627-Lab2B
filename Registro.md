@@ -159,11 +159,22 @@ Procedura ricorsiva per la cancellazione di un elemento.
 
 **Lezione 16** (10/11/26)
 
-Linked list: procedure ricorsive per la cancellazione e l'inserimento ordinato.
+Linked list: procedure iterative e ricorsive per la cancellazione e l'inserimento ordinato.
 Alberi binari di ricerca: procedure ricorsive per costruzione, visita e deallocazione.
 
 
 
+---
+
+
+**Lezione 17** (13/11/26)
+
+Alberi binari di ricerca: visita in preorder, ricerca di un elemento, calcolo altezza (file `abr_capitali.c`)
+Lettura da file con getline(). Parsing di stringhe mediante strtok() (esempi `leggicitta.c` e `legginomi.c`).
+Funzionamento interno di strtok(). Varabili statiche (esempio `statiche.c`)
+
+
+---
 
 
 <details>
