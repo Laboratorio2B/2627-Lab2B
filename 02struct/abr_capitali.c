@@ -58,10 +58,10 @@ void abr_capitale_stampa(const capitale *root, FILE *f)
   }
 }
 
-// stampa tutti gli elementi dell'albero
-// che ha come radice root
+// stampa tutti gli elementi dell'albero con radice root
 // facendo una visita in preorder
 // il parametro depth è la profondita di root
+// è usato per mostrare la struttura dell'albero
 void abr_capitale_stampa_preorder(const capitale *root, FILE *f, int depth)
 {
   // stampa depth spazi per mostrare la profondità del nodo
@@ -211,11 +211,12 @@ int main(int argc, char *argv[])
   puts("--- inizio lista (struttura dell'albero) ---");
   abr_capitale_stampa_preorder(root,stdout,0);  
   puts("--- fine lista ---");
+  
   printf("Altezza albero: %d\n",abr_altezza(root));
   // esegue la ricerca delle città passate sulla linea di comando
   for(int i=2;i<argc;i++) {
     capitale *c = abr_ricerca(root,argv[i]);
-    if(c==NULL) 
+    if(c==NULL) +
       printf("%s non trovata\n",argv[i]);
     else {
       printf("Trovata: ");

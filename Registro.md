@@ -167,28 +167,37 @@ Alberi binari di ricerca: procedure ricorsive per costruzione, visita e dealloca
 ---
 
 
-**Lezione 17** (13/11/26)
+**Lezione 17** (17/11/26)
 
-Alberi binari di ricerca: visita in preorder, ricerca di un elemento, calcolo altezza (file `abr_capitali.c`)
-Lettura da file con getline(). Parsing di stringhe mediante strtok() (esempi `leggicitta.c` e `legginomi.c`).
-Funzionamento interno di strtok(). Varabili statiche (esempio `statiche.c`)
+Alberi binari di ricerca: visita in preorder, ricerca di un elemento, calcolo altezza,
+ricerca mediante funzione di confronto (file `abr_capitali.c`).
+Lettura da file con getline(). Parsing di stringhe mediante strtok() (esempio `leggicitta.c`).
+Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
 
 
 ---
 
+
+**Lezione xx** (11/12/26)
+
+Seconda prova in itinere
+
+
+---
+
+
+**Lezione 18**
+
+Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
+
+
+----
 
 <details>
 <summary>Anno accademico 2025/26</summary>
 
 
 
-----
-
-**Lezione 13** (4/11/25)
-
-Alberi binari di ricerca: procedure ricorsive per costruzione, visita e deallocazione.
-Alberi binari di ricerca: visita in preorder, ricerca di un elemento, calcolo altezza (file `abr_capitali.c`)
-Makefile: concetto di target, prerequisiti e comandi.
 
 
 ----
@@ -218,7 +227,7 @@ Accesso a sistemi remoti via ssh con X11 forwarding. Uso di gdbgui per debugging
 **Lezione 16** (14/11/25)
 
 File oggetto (`.o`) e compilazione separata (programma `parole`) 
-Realizzazione della compilazione separata nel makefile. Utilizzo delel variabili 
+Realizzazione della compilazione separata nel makefile. Utilizzo delle variabili 
 `$<`, `$^`, e `$@` nel makefile.
 Implementazione `strtok` in assembler ARM (`tok.s`)
 

@@ -41,8 +41,8 @@ invece della ricorsione. Per testare le vostre funzioni invocate `inserisci_lat_
 dal `main` al posto di `inserisci_lat_ric` e verificate di ottenere lo stesso risultato. 
 
 
-### Inserimento ordinato in liste parametrico (10/11/26)
 
+### Inserimento ordinato in liste parametrico (10/11/26)
 
 Scrivere una funzione di inserimento ordinato in una lista in cui il criterio di ordinamento 
 è espreso da una funzione `int confronta_capitali(capitali *a, capitali *b)` che viene passato come parametro alla funzione di inserimento. Testare la funzione usandola opportunamento per ottenere la lista di capitali ordinata lessicograficaemnte. 
@@ -76,4 +76,42 @@ Successivamente il `main` deve invocare `confronta_lunghezza` e stampare la list
 Il programma deve poi deallocare tutta la memoria utilizzata e terminare.   
 
 
- 
+
+### Stampa condizionale su ABR (17/11/26)
+
+Aggiungere al programma  `abr_capitali` una funzione
+```
+bool pisaSE(capitale *c)
+
+```
+che prende input una capitale `c` e restituisce `true` se e solo se la città `c` si trova a Sud-Est di Pisa (che ha coordinate `43.70853`, `10.4036`). Utilizzare tale funzione insieme a `abr_stampa_cond` per stampare su `stdout` l'elenco delle capitali che si trovano a Sud-Est di Pisa. 
+
+
+
+### Ricerca su ABR (17/11/26)
+
+Aggiungere al programma `abr_capitali` una funzione
+```
+int abr_ricerca_range(capitale *r, char *smin, char *smax)
+```
+che date due stringhe `smin` e `smax` visualizza su stdout tutte le città contenuto nell'albero di radice `r` il cui nome è compreso lessicograficamente tra `smin` e `smax`. La funzione deve visualizzare le città in 
+ordine lessicografico e deve esplorare solamente le parti dell'albero che possono contenere città nel range assegnato. La funzione deve resituire il numero di nodi esplorati (cioè quelli il cui nome di città viene confrontato con `smin` e/o `smax`); questo serve per verificare che non venga visitato tutto l'abero.
+
+Modificare poi la funzione `main` in modo che dopo la costruzione dell'albero venga invocata la funzione 
+`abr_ricerca_range` con parametri `argv[2]` e `argv[3]`.   
+
+
+### ABR Città Sud America (17/11/26)
+
+Questo esercizio richiede di creare un ABR contenente le città del Sud America predendole da file `sudAmerica.txt`. Si proceda nel seguente modo. Nel programma `abr_capitali` si cambi la definizione di `capitale` nella seguente
+```c
+typedef struct capit {
+  char *nome;
+  char *nazione;
+  int kpop;
+  struct capit *left, *right;
+} capitale;
+```
+e si modifichino di conseguenza le funzioni `capitale_stampa`, `capitale_crea`, e `capitale_distruggi`. Si cancelli la funzione `capitale_leggi` e si modifichi la funzione `crea_abr` in modo che il ciclo `while` legga il file utilizzando `getline` ad ogni iterazione e per ogni linea utilizzando `strtok` crei e inserisca nell'ABR un nodo contenente i dati della città letta (si veda `legginomi.c` per un esempio). 
+
+
