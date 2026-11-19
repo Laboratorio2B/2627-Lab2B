@@ -178,17 +178,20 @@ Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
 ---
 
 
-**Lezione xx** (11/12/26)
+**Lezione 17** (17/11/26)
 
-Seconda prova in itinere
+Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
+Makefile: target di default, meccanismo di risoluzione dei prerequisiti, regole implicite
+
 
 
 ---
 
 
-**Lezione 18**
+**Lezione xx** (11/12/26)
 
-Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
+Seconda prova in itinere
+
 
 
 ----

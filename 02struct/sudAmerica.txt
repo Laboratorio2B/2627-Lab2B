@@ -1,0 +1,32 @@
+São Paulo; 21486; Brasile
+Buenos Aires; 15748; Argentina
+Rio de Janeiro; 12306 ; Brasile
+Lima; 10556 ; Perú  
+Bogotá; 10252 ; Colombia
+Santiago; 7099 ; Cile
+Belo Horizonte; 5242 ; Brasile
+Recife; 3866; Brasile
+Porto Alegre; 3504; Brasile
+Fortaleza; 3415; Brasile
+Brasilia; 3406; Brasile 
+Salvador; 3344; Brasile
+Medellín; 3242; Colombia
+Guayaquil; 3183; Ecuador
+Curitiba; 2873; Brasile
+Campinas; 2789; Brasile
+Quito; 2778; Ecuador
+Goiânia; 2663; Brasile 
+Cali; 2640; Colombia  
+Caracas; 2521; Venezuela
+Manaus; 2327; Brasile  
+Santa Cruz de la Sierra; 2230; Bolivia  
+Maracaibo; 2219; Venezuela
+Barranquilla; 2133; Colombia
+Belém; 2130; Brasile
+La Paz; 2069; Bolivia
+Vitória; 1731; Brasile
+Asunción; 1609; Paraguay
+Cordoba; 1597; Argentina 
+Pisa; 90; Italia; Europa
+Livorno; 152
+Firenze
