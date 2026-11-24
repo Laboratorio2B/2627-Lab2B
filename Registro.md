@@ -177,20 +177,54 @@ Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
 
 ---
 
+**Lezione 18** (20/11/26)
 
-**Lezione 17** (17/11/26)
-
-Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
-Makefile: target di default, meccanismo di risoluzione dei prerequisiti, regole implicite
-
+Non tenuta per indisponibilità dell'aula. 
 
 
 ---
 
 
+**Lezione 19a** (23/11/26)
+
+Funzionamento interno di strtok(). Variabili statiche (esempio `statiche.c`)
+Makefile: target, prerequisiti, comandi. 
+Target di default, meccanismo di risoluzione dei prerequisiti, regole implicite
+
+
+---
+
+
+## Assembler ARM (03assembler)
+
+
+**Lezione 19b** (23/11/26)
+
+Test di primalità in assembler ARM (`primo.s`). makefile per programmi in assembler. Accesso a sistemi remoti via ssh con X11 forwarding.
+
+---
+
+
+**Lezione 20** (24/11/26)
+
+File oggetto (`.o`) e compilazione separata (programma `parole`) 
+Realizzazione della compilazione separata nel makefile. 
+Utilizzo delle variabili `$<`, `$^`, e `$@` nel makefile.
+Confronto di stringhe in assembler ARM (`strcmp.s`).
+
+
+---
+
+**Lezione 21** (27/11/26)
+
+Uso di un debugger: esecuzione passo/passo, breakpoint, visualizzazione variabili locali o registri, espressioni, breakpoint condizionali.
+Uso di gdbgui per debugging su sistemi remoti attraverso un browser, visualizzazione di strutture con puntatori all'interno del debugger. 
+
+
+
 **Lezione xx** (11/12/26)
 
-Seconda prova in itinere
+Seconda prova in itinere su tutti gli argomenti del primo semestre. 
 
 
 
@@ -206,26 +240,9 @@ Seconda prova in itinere
 ----
 
 
-**Lezione 14** (7/11/25)
-
-Lettura da file con getline(). Parsing di stringhe mediante strtok() (esempi `leggicitta.c` e `legginomi.c`).
-Funzionamento interno di strtok(). Varabili statiche (esempio `statiche.c`)
-Makefile: target di default, meccanismo di risoluzione dei prerequisiti, regole implicite
-
-
----
-
-
 ## Assembler ARM (03assembler)
 
 
-**Lezione 15** (11/11/25)
-
-Test di primalità in assembler ARM (`primo.s`). 
-Uso di un debugger: esecuzione passo/passo, breakpoint, visualizzazione variabili locali o registri, espressioni, breakpoint condizionali.
-Accesso a sistemi remoti via ssh con X11 forwarding. Uso di gdbgui per debugging su sistemi remoti attraverso un browser, visualizzazione di strutture con puntatori all'interno del debugger. 
-
----
 
 **Lezione 16** (14/11/25)
 
