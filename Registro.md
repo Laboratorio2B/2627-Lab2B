@@ -217,9 +217,12 @@ Confronto di stringhe in assembler ARM (`strcmp.s`).
 
 **Lezione 21** (27/11/26)
 
+
+Operazioni bitwise in C: `&`, `|`, `^`, `~`, `<<`, `>>`. 
+Uso di variabili intere come array di bit. Esempi in `bitops.c`.
 Uso di un debugger: esecuzione passo/passo, breakpoint, visualizzazione variabili locali o registri, espressioni, breakpoint condizionali.
 Uso di gdbgui per debugging su sistemi remoti attraverso un browser, visualizzazione di strutture con puntatori all'interno del debugger. 
-
+Implementazione `strtok` in assembler ARM (`tok.s`)
 
 
 **Lezione xx** (11/12/26)
